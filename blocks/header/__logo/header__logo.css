@@ -1,5 +1,7 @@
-.header__logo {
-  display: block;
-  width: 142px;
-  height: 33px;
+@media screen and (max-width: 890px) {
+  .header__logo {
+    width: 104px;
+    height: 24px;
+    padding-left: 27px;
+  }
 }
