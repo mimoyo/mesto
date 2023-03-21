@@ -5,3 +5,11 @@
   line-height: 22px;
   color: #FFFFFF;
 }
+
+@media screen and (max-width: 625px) {
+  .profile__subtitle {
+    max-width: 282px;
+    font-size: 14px;
+    line-height: 17px;
+  }
+}

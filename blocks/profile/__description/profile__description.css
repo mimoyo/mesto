@@ -3,3 +3,11 @@
   column-gap: 18px;
   align-items: center;
 }
+
+@media screen and (max-width: 625px) {
+  .profile__description {
+    width: 100%;
+    justify-content: center;
+    column-gap: 10px;
+  }
+}

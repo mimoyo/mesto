@@ -5,3 +5,10 @@
   justify-content: center;
   row-gap: 7px;
 }
+
+@media screen and (max-width: 625px) {
+  .profile__text {
+    width: 100%;
+    align-items: center;
+  }
+}
