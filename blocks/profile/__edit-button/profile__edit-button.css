@@ -2,6 +2,7 @@
   width: 24px;
   height: 24px;
   padding: 0;
+  grid-area: button;
   border: 1px solid #FFFFFF;
   background-image: url('../../../images/edit__button.svg');
   background-repeat: no-repeat;
@@ -15,5 +16,6 @@
     width: 18px;
     height: 18px;
     background-image: url('../../../images/edit__button-mobile.svg');
+    justify-self: start;
   }
 }

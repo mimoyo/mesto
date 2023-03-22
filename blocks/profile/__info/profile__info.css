@@ -4,4 +4,13 @@
   align-items: center;
 }
 
+@media screen and (max-width: 625px) {
+  .profile__info {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 26px 0;
+  }
+}
+
 

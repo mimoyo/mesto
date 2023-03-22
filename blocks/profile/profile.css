@@ -3,3 +3,18 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media screen and (max-width: 890px) {
+  .profile {
+    margin: 0 27px;
+  }
+}
+
+@media screen and (max-width: 625px)  {
+  .profile {
+    max-width: 282px;
+    margin: 0 auto;
+    flex-direction: column;
+    row-gap: 33px;
+  }
+}

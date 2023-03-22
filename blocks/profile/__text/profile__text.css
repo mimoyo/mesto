@@ -9,9 +9,16 @@
   gap: 7px 18px;
 }
 
-/* @media screen and (max-width: 625px) {
+ @media screen and (max-width: 625px) {
   .profile__text {
     width: 100%;
+    grid-template-areas:
+    "title button"
+    "text text";
+    justify-content: center;
     align-items: center;
+    justify-items: center;
+    gap: 7px 10px;
+    grid-template-columns: max-content min-content;
   }
-} */
+}
