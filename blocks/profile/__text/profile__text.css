@@ -1,14 +1,17 @@
 .profile__text {
   max-width: 336px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  row-gap: 7px;
+  max-height: 77px;
+  display: grid;
+  grid-template-areas:
+  "title button"
+  "text text";
+  align-items: baseline;
+  gap: 7px 18px;
 }
 
-@media screen and (max-width: 625px) {
+/* @media screen and (max-width: 625px) {
   .profile__text {
     width: 100%;
     align-items: center;
   }
-}
+} */
