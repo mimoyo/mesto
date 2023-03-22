@@ -1,0 +1,9 @@
+.card {
+  max-width: 282px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  overflow: hidden;
+}
