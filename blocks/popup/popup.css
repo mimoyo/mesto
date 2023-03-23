@@ -8,5 +8,4 @@
   place-content: center;
   place-items: center;
   background-color: rgba(0, 0, 0, 0.5);
-  transition: background-color 1s, display 1s;
 }
