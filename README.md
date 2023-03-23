@@ -6,5 +6,5 @@
 
 - HTML & CSS, Vanilla JS
 
-## [Посмотреть демо]()
+## [Посмотреть демо](https://mimoyo.github.io/mesto/)
 
