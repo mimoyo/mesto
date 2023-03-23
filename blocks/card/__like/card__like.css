@@ -5,4 +5,13 @@
   background-color: transparent;
   background-image: url('../../../images/like.svg');
   cursor: pointer;
+  transition: opacity 0.5s linear;
+}
+
+.card__like:hover {
+  opacity: 50%;
+}
+
+.card__like:active {
+  background-image: url('../../../images/like_active.svg');
 }
