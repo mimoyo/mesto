@@ -5,14 +5,14 @@ const popupCloseButton = body.querySelector('.popup__close-button');
 const profileTitle = body.querySelector('.profile__title');
 const profileSubtitle = body.querySelector('.profile__subtitle');
 const formElement = body.querySelector('.form');
-const inputName = body.querySelector('.form__input_name');
-const inputJob = body.querySelector('.form__input_job');
+const inputName = body.querySelector('.form__input_value_name');
+const inputJob = body.querySelector('.form__input_value_job');
 
 
 const openPopup = () => {
-  popup.classList.add('popup_opened');
   inputName.value = profileTitle.textContent;
   inputJob.value = profileSubtitle.textContent;
+  popup.classList.add('popup_opened');
 }
 
 const closePopup = () => {

@@ -14,7 +14,7 @@
 }
 
 .form__submit:hover {
-  opacity: 0.6;
+  opacity: 80%;
 }
 
 @media screen and (max-width: 625px) {
