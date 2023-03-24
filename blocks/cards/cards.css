@@ -10,11 +10,11 @@
 
 @media screen and (max-width: 890px) {
   .cards {
-    margin: 0 27px;
+    margin: 0 20px;
   }
 }
 
-@media screen and (max-width: 635px) {
+@media screen and (max-width: 625px) {
   .cards {
     margin: 0;
     padding-top: 36px;
